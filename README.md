@@ -11,4 +11,6 @@ Difficulty - Apprentice
   Exploit of "robots.txt" to find the "administrator-panel" directory to delete a user
   Takeaway - how hidden directories from users can be found using exploits, thereby accessing admin control without permission and when not protected
 
-  
+  Lab 3: Unprotected Admin Functionality with Unpredictable URL "Access Control"
+  Exploit of inclusion of admin URL within the java script of the user UI
+  Takeaway - Do not hold administrative URLs within public java script, and protect them
