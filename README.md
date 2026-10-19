@@ -6,3 +6,9 @@ Difficulty - Apprentice
   Lab 1: Exploration of "Path Traversal"
   Use of '../../../etc/passwd' to access file storage by intercepting and modifying an image retrieval request
   Takeaway - how retrieval requests can be intercepted to retrieve other information on the same database without permission
+
+  Lab 2: Unprotected Admin Functionality "Access Control"
+  Exploit of "robots.txt" to find the "administrator-panel" directory to delete a user
+  Takeaway - how hidden directories from users can be found using exploits, thereby accessing admin control without permission and when not protected
+
+  
