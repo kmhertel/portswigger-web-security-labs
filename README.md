@@ -1,7 +1,7 @@
 # portswigger-web-security-labs
 Hands-on web application security labs using Burp Suite to learn and develop knowledge.
 
-#Server-side Vulnerabilities Path:
+----------#Server-side Vulnerabilities Path:----------
 Difficulty - Apprentice
   Lab 1: Exploration of "Path Traversal"
   Use of '../../../etc/passwd' to access file storage by intercepting and modifying an image retrieval request
@@ -14,3 +14,16 @@ Difficulty - Apprentice
   Lab 3: Unprotected Admin Functionality with Unpredictable URL "Access Control"
   Exploit of inclusion of admin URL within the java script of the user UI
   Takeaway - Do not hold administrative URLs within public java script, and protect them
+
+----------#SQL Injection Path:----------
+Difficulty - Practitioner
+  How To Detect SQL Injection Vulnerabilities:
+  Manually checking by systematic tests against every entry point by submitting
+    Single quote character and observe errors or anomalies
+    SQL-specific syntax that evaluates to base value of entry point, and to a different value to observe systematic differences in responses
+    Boolean conditions (1=1, 1=2) and observe responses
+    Payloads designed to trigger time delays when executed within a SQL query, observe time differences in response
+    OAST payloads designed to trigger out-of-band network interaction when executed in a SQL query, monitor any resulting interactions
+    Alternatively use a dedicated software like Burp Scanner
+
+  SQL Injection In Different Parts Of The Query
